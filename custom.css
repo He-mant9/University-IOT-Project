@@ -1,0 +1,466 @@
+﻿
+
+/*for inner page*/
+.innerHead {
+    background: url(../images/img_bn.png) 0 0 repeat #004b6a;
+    border-top: 1px solid #fff;
+}
+
+.innerhead-text {
+    font-size: 20px;
+    font-weight: normal;
+    color: #fff;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.obj-heading-inner {
+    font-size: 20px;
+    border-bottom: 1px solid #e2e1e1;
+    padding-bottom: 10px;
+    color: #333;
+}
+
+.obj-text-inner {
+    color: #333;
+    line-height: 1.8;
+    font-size: 14px;
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/*breadcums*/
+.bradcums_vlab {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 14px;
+    margin: 19px 0 10px;
+    overflow: hidden;
+    font-size: 1em;
+}
+
+#rightColm {
+    background-color: #f6f6f6;
+    height: -webkit-fill-available;
+    margin-top: 45px;
+}
+
+    #rightColm h3 {
+        font-size: 1.6em;
+        background-color: #666;
+        color: #fff;
+        padding: 10px;
+        font-weight: normal;
+    }
+
+    #rightColm ul {
+        list-style-type: none;
+        margin: 10px 0;
+        padding: 0;
+    }
+
+        #rightColm ul li {
+            padding: 8px 14px;
+            border-bottom: 1px solid #e4e4e4;
+        }
+
+            #rightColm ul li a {
+                font-size: 1.2em;
+                line-height: 1.3em;
+                font-weight: 500;
+                color: #222222;
+                text-decoration: none;
+            }
+
+                #rightColm ul li a:hover {
+                    font-size: 1.2em;
+                    line-height: 1.3em;
+                    font-weight: 500;
+                    color: #23527c;
+                    text-decoration: none;
+                }
+
+ul li.leaf {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+    ul li.leaf a {
+        color: #dedede;
+        font-size: 1.2em;
+        line-height: normal;
+    }
+
+/*.vl-tbl{margin-top:20px;border:1px solid grey;border-collapse: seprate;width: 100%;display: table;}
+.vl-tbl thead{background-color:#f4f4f4;color:#000;}*/
+
+table.vl-tbl {
+    border-collapse: collapse;
+    margin-top: 25px;
+    width: 100%;
+}
+
+    table.vl-tbl thead {
+        background-color: #f4f4f4;
+        color: #000;
+    }
+
+    table.vl-tbl tr td {
+        padding: 5px 7px;
+        border: 1px solid #CCCCCC;
+        border-collapse: collapse;
+        color: #000;
+        text-align: left;
+        vertical-align: top;
+        line-height: 1.7em;
+    }
+
+        table.vl-tbl tr td a {
+            text-decoration: none;
+            font-weight: normal;
+        }
+
+
+/*by rachit for ba labs list***************/
+.row-flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    margin-bottom: 0px;
+}
+
+.labs {
+    margin-top: 20px;
+    border: 1px solid #e4e4e4;
+}
+
+    .labs.content {
+        height: 100%;
+        color: #fff;
+    }
+
+.lab-col-1 {
+    background: #f6f6f6;
+}
+
+.lab-col-2 {
+    background: #666;
+    color: #fff;
+    padding-left: 10px;
+    padding-top: 12px;
+}
+
+    .lab-col-2 a {
+        color: #fff;
+    }
+
+        .lab-col-2 a:hover {
+            text-decoration: none;
+            color: #f15822;
+        }
+/*.ref-main-div{background: #e4e4e4; margin-bottom: 10px;}*/
+.ref-main-div {
+    background:;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+
+.ref-div {
+    color: #f15822;
+    padding: 7px 15px 7px 15px;
+}
+
+.ref-book {
+    float: left;
+    cursor: pointer;
+}
+
+.ref-book-detail {
+    display: none;
+    padding: 5px;
+    background: #fff;
+    margin-bottom: 10px;
+}
+
+    .ref-book-detail p {
+        font-weight: bold;
+        color: #f15822
+    }
+
+    .ref-book-detail ol {
+        padding-left: 15px;
+        line-height: 1.5
+    }
+
+.syll-map {
+    float: left;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.syll-map-detail {
+    display: none;
+    padding: 5px;
+    background: #fff;
+    margin-bottom: 10px;
+}
+
+    .syll-map-detail p {
+        font-weight: bold;
+        color: #f15822
+    }
+
+    .syll-map-detail ol {
+        padding-left: 15px;
+        line-height: 1.5
+    }
+
+.labs h4 {
+    font-size: 16px;
+}
+
+.instruction {
+    float: right;
+    cursor: pointer;
+}
+
+.modal-body-list {
+    padding-left: 15px;
+    font-size: 14px;
+    line-height: 1.8
+}
+
+.about-img img {
+    width: 75%;
+    margin-left: 10%;
+}
+/* INSTITUTE LABS LIST*/
+.inst-lab-text a {
+    text-decoration: none;
+}
+
+.fb {
+    font-weight: bold;
+}
+
+.obj-text-inner ul {
+    padding-left: 15px;
+}
+
+.obj-text-inner ol {
+    padding-left: 15px;
+}
+
+/* hyper link heading */
+.hlh {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 20px 0px 20px 0px;
+}
+
+    .hlh a {
+        text-decoration: none;
+    }
+
+#lab-list {
+    list-style: none;
+    margin-top: -10px;
+    width: 310px;
+    text-align: left;
+}
+
+    #lab-list li:first-child {
+        margin-top: 10px;
+    }
+
+    #lab-list li {
+        padding: 10px;
+        background: #ffffff;
+        border-bottom: #bbb9b9 1px solid;
+    }
+
+        #lab-list li:hover {
+            background: #ece3d2;
+            cursor: pointer;
+        }
+
+@media only screen and (max-width: 600px) {
+    #suggesstion-box {
+        top: 55px;
+        left: -20px;
+    }
+
+    #lab-list {
+        list-style: none;
+        margin-top: -10px;
+        width: 350px;
+        text-align: left;
+    }
+
+    .gallery-d {
+        margin-top: 10px;
+    }
+}
+
+.frm-danger {
+    color: red;
+}
+
+.npt {
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 10px 15px;
+}
+
+    .npt a {
+        text-decoration: none;
+        color: blue
+    }
+
+.sign-frm {
+    padding: 50px;
+    border: 1px solid lightgrey;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.signin-frm {
+    padding: 50px;
+    border: 1px solid lightgrey;
+    margin-top: 10px;
+}
+
+.space10 {
+    height: 10px;
+}
+
+.space20 {
+    height: 20px;
+}
+
+.space30 {
+    height: 30px;
+}
+
+.gallery-d {
+    margin-top: 10px;
+}
+.checkbox {
+    padding-left: 50px;
+    max-width: 60%;
+}
+
+    .checkbox label {
+        display: inline-block;
+        vertical-align: middle;
+        position: relative;
+        padding-left: 20px;
+        text-align:left;
+    }
+
+        .checkbox label::before {
+            content: "";
+            display: inline-block;
+            position: absolute;
+            width: 17px;
+            height: 17px;
+            left: 0;
+            margin-left: -20px;
+            border: 1px solid #cccccc;
+            border-radius: 3px;
+            background-color: #fff;
+            -webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+            -o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+            transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+        }
+
+        .checkbox label::after {
+            display: inline-block;
+            position: absolute;
+            width: 16px;
+            height: 16px;
+            left: 0;
+            top: 0;
+            margin-left: -20px;
+            padding-left: 3px;
+            padding-top: 1px;
+            font-size: 11px;
+            color: #555555;
+        }
+
+    .checkbox input[type="checkbox"] {
+        opacity: 0;
+        z-index: 1;
+    }
+
+        .checkbox input[type="checkbox"]:checked + label::after {
+            font-family: "FontAwesome";
+            content: "\f00c";
+        }
+
+.checkbox-primary input[type="checkbox"]:checked + label::before {
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+
+.checkbox-primary input[type="checkbox"]:checked + label::after {
+    color: #fff;
+}
+
+.contexp {
+    width: 80%;
+    border: solid 1px;
+    display: inline-block;
+    align-self: center;
+    margin-bottom: 10px;
+}
+ListItem{
+    margin-top=50px;
+}
+.FormatRadioButtonList label {
+    margin-left: 15px;
+}
+.contexp1 {
+    width: 80%;
+    display: inline-block;
+    align-self: center;
+    
+}
+
+input[type=radio] {
+    margin: 10px;
+}
+
+.error {
+    font-size: 14px;
+    color: red;
+}
+
+.btn-left {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: left;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-top:20px;
+}
+
+.max-height{
+    max-height:50px;
+}
